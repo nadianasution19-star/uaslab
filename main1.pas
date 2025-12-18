@@ -1,4 +1,4 @@
-program JadwalHari;
+program RosterKuliah;
 uses crt;
 
 type
@@ -26,27 +26,27 @@ procedure isi;
 begin
   j[1].hari:='SENIN';   
   j[1].matkul:='Dance Tiktok';       
-  j[1].jam:='08-10';   
+  j[1].jam:='08.00-10.00';   
   j[1].ruang:='Studio Pacil';
 
   j[2].hari:='SELASA';  
   j[2].matkul:='Table Manner';       
-  j[2].jam:='09-11';   
+  j[2].jam:='09.00-11.00';   
   j[2].ruang:='Kerajaan Pacil';
 
   j[3].hari:='RABU';    
   j[3].matkul:='Membantai Kalkulus'; 
-  j[3].jam:='08-10';   
+  j[3].jam:='08.00-10.00';   
   j[3].ruang:='Ruangan Pak Andri';
 
   j[4].hari:='KAMIS';   
   j[4].matkul:='MonkeyType';         
-  j[4].jam:='13-15';   
+  j[4].jam:='13.00-15.00';   
   j[4].ruang:='Ruangan Pak Handrizal';
 
   j[5].hari:='JUMAT';   
   j[5].matkul:='Boxing';             
-  j[5].jam:='09-11';   
+  j[5].jam:='09.00-11.00';   
   j[5].ruang:='Pendopo';
 end;
 
